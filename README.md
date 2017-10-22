@@ -1,41 +1,45 @@
 # learning_php
 
-<?php ?>
-(you can omit closing tag when its only PHP. However if there's something else (like html) you have to include it.
 
 ### variables
 
+```php
 $greeting = 'hello';
 echo $greeting;
-----
+```
+```php
 $name = "Nicholas Daniel";
 echo "Hello, " . $name;
 echo "Hello, {$name}";
+```
 
 ### php and html
 
+```php
 <?php
   $name = $_GET['name'];
   echo $name;
-  
 ?>
+```
 
-localhost:8888/learning_php?name=Nick // key -> value
+__localhost:8888/learning_php?name=Nick // key -> value
 
+```php
 <?php echo ... ?> -> <?= ... ?>
+```
 
 ### including a file in another file
 
+```php
 require 'index.view.php';
+```
 
 ### loop an array
 
+```php
 $names = ['Nick', 'Cy', 'Glue'];
 foreach($names as $name) {
   echo $name;
 }
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
 ```
+
