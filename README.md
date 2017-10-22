@@ -57,4 +57,8 @@ foreach($names as $name) {
 <?php foreach($person as $key =>  $value) : ?>
 	<li><strong><?= $key; ?>: <?= $value; ?></li>
 <?php endforeach; ?>
+
+var_dump($associative_array);
+
 ```
+
