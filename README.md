@@ -51,4 +51,10 @@ foreach($names as $name) {
 	<?php endforeach; ?>
 ```
 
-###
+### associative arrays
+
+```php
+<?php foreach($person as $key =>  $value) : ?>
+	<li><strong><?= $key; ?>: <?= $value; ?></li>
+<?php endforeach; ?>
+```
