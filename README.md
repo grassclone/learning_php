@@ -43,3 +43,12 @@ foreach($names as $name) {
 }
 ```
 
+---------------
+
+```php
+<?php foreach ($names as $name) : ?>
+		<li><?= $name; ?></li>
+	<?php endforeach; ?>
+```
+
+###
