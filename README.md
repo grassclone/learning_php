@@ -61,4 +61,7 @@ foreach($names as $name) {
 var_dump($associative_array);
 
 ```
-
+### ternary operator
+```php
+value ? 'do this if true' : 'do this if false'
+task['completed'] ? echo 'Completed' :  echo 'Incomplete'
